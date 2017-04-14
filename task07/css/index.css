@@ -1,0 +1,579 @@
+*{
+    padding:0;
+    margin:0;
+    border-style:none;
+    
+}
+#header{
+    min-width: 1280px;
+    height: 56px;
+    margin:0 auto;
+}
+#header .logo-small{
+    width: 107px;
+    height: 32px;
+    margin:13px auto auto 57px;
+    background: url("../image/sprite.png") -7px -6px;
+    float:left;
+}
+#header .logo-small span{
+    display:block;
+    font:21px "simhei";
+    color:#000;
+    margin-left:30px;
+}
+#header ul{
+    list-style:none;
+    float:right;
+    margin-top:10px;
+}
+#header li{
+    display:inline-block;
+    width: 64px;
+    height: 40px;
+    text-align:center;
+}
+#header a{
+    height: 40px;
+    text-decoration:none;
+    font:14px/40px "microsoft yahei";
+    color:#787A82;
+    text-align:center;
+}
+#header .login a{
+    font:14px "microsoft yahei";
+    color:#E74F4D;
+
+}
+#header li:hover{
+    color:#E74F4D;
+    border-bottom:5px solid #E74F4D;
+}
+#begin{
+    min-width: 1280px;
+    height: 690px;
+    background: url("../image/1.gif") no-repeat;
+    background-size:100% auto;
+}
+#begin p:nth-child(1){
+    font:60px "microsoft yahei";
+    color:#FEFEFE;
+    padding-top: 226px;
+    padding-left: 114px;
+}
+#begin p:nth-child(3){
+    padding-left: 114px;
+    font:21px "microsoft yahei";
+    color:#FEFCFD;
+}
+#begin button{
+    border-style:none;
+    width: 331px;
+    height: 65px;
+    color:#FEFEFE;
+    margin:60px auto auto 114px;
+    font:30px "microsoft yahei";
+    background-color: #E7504D;
+}
+#intro {
+    width: 1280px;
+    height: 251px;
+    margin:0 auto;
+}
+#intro ul{
+    list-style:none;
+    width: 1280px;
+    height:185px;
+
+}
+#intro li{
+    display:inline-block;
+    height: 185px;
+    width: 158px;
+    position:relative;
+}
+#intro .ico1,.ico2, .ico3,.ico4 {
+    position:absolute;
+    left:63px;
+    top:50px;
+}
+#intro .ico1{
+    width: 42px;
+    height: 42px;
+    background: url("../image/sprite.png") -10px -49px ;
+}
+#intro .ico2{
+    width: 35px;
+    height:40px;
+    background: url("../image/sprite.png") -10px -110px ;
+}
+#intro .ico3{
+    width: 35px;
+    height:40px;
+    background: url("../image/sprite.png") -7px -168px ;
+}
+#intro .ico4{
+    width: 41px;
+    height:40px;
+    background: url("../image/sprite.png") -7px -227px ;
+}
+#intro li p{
+    width: 158px;
+    height: 38px;
+    font:14px "simhei";
+    color:#767677;
+    margin-top:152px;
+    text-align:center;
+}
+#intro span{
+    display:inline-block;
+    font:30px "simhei";
+   margin:auto 77px;
+    color:#bbb;
+}
+#more{
+    min-width: 1280px;
+    height: 1304px;
+    margin:0 auto;
+    background-color:#EDECEC;
+    position:relative;
+}
+#more .logo-big{
+ position:absolute;
+    left:694px;
+    top:85px;
+    width: 91px;
+    height: 92px;
+    background: url("../image/sprite.png") -196px -6px;
+}
+#more  h1{
+    color:#909090;
+    font:54px "simhei";
+    text-align:center;
+    padding-top: 230px;
+}
+#more .info{
+    width: 100%;
+    height: 340px;
+    position:absolute;
+    top:358px;
+    background: url("../image/2.gif") no-repeat;
+    background-size:100% auto;
+
+}
+.info h2{
+    font:21px "microsoft yahei";
+    color:#FEFEFE;
+    text-align:center;
+    padding-top:50px;
+}
+.info p{
+    font:12px "microsoft yahei";
+    color:#FEFEFE;
+    margin-top:10px;
+    text-align:center;
+}
+.info input,.info button{
+    width: 236px;
+    height: 36px;
+    margin-right:27px;
+}
+.info input{
+    font:12px "microsoft yahei";
+    padding-left:12px;
+    color:#A8A9AA;
+}
+.info button{
+    background-color:#BE4E48;
+    border-style:none;
+    color:#FEFEFE;
+    font:14px "microsoft yahei";
+
+}
+.info .inp{
+    margin-left:125px;
+    margin-top:44px;
+}
+
+.activity{
+    width: 100%;
+    height: 604px;
+    position:absolute;
+    bottom:0;
+    left:147px;
+}
+.activity ul{
+    width: 60%;
+    margin-left:120px;
+    list-style:none;
+}
+.activity li{
+    display:inline-block;
+
+}
+.activity .pic{
+    width: 220px;
+    height: 333px;
+    background-color: #fff;
+    border:1px solid #DADADA;
+}
+.activity li img{
+    margin:10px;
+}
+.activity li span{
+    font:16px "simhei";
+  padding-left:80px;
+    padding-top:10px;
+}
+.activity li p{
+    font:12px "simhei";
+    text-align:center;
+    color:#888989;
+
+}
+.activity .shanghai span{
+letter-spacing:30px;
+    padding-left: 38px;
+}
+#world{
+    width:100%;
+    height: 566px;
+}
+#world .left{
+    width: 56%;
+    height: 566px;
+    float:left;
+    background: url("../image/7.gif") no-repeat;
+    background-size:cover;
+    position:relative;
+}
+#world .left h2{
+    font:48px "microsoft yahei";
+    color:#fff;
+    text-align:center;
+    margin-top: 128px;
+}
+#world .left h1{
+    text-align:center;
+    font:150px "microsoft yahei";
+    color:#fff;
+    margin-top:-40px;
+}
+#world .left p{
+    font:21px "microsoft yahei";
+    color:#fff;
+    text-align:center;
+ }
+#world .left::after{
+    content:"";
+    position:absolute;
+    border-width:30px;
+    border-style:solid;
+    border-color:transparent #fff transparent transparent;
+    top:250px;
+    left:100%;
+    margin-left:-60px;
+
+}
+/*#world .left::after{*/
+    /*content: '';*/
+    /*position: absolute;*/
+    /*border-width: 30px;*/
+    /*border-style: solid;*/
+    /*border-color: transparent #fff transparent transparent;*/
+    /*top: 250px;*/
+    /*left: 100%;*/
+    /*margin-left: -60px;*/
+/*}*/
+#world .right{
+    width: 44%;
+    height: 566px;
+    float:right;
+    text-align:center;
+}
+#world .right .wrapper {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+   margin:147px auto;
+    position:relative;
+}
+#world .right .wrapper .mes1{
+    display:block;
+}
+#world .right .wrapper .mes1 p:first-child{
+    font:700 21px "simsun";
+}
+#world .right .wrapper .mes1 p>span{
+    color:#E74F4D;
+}
+#world .right .wrapper .mes1 p:nth-child(2){
+    font:12px "simsun";
+    line-height:20px;
+    color:#AAAAA9;
+    padding-top:10px;
+}
+#world .right .wrapper .mes2{
+    display:none
+}
+#world .right .wrapper .mes2 p:first-child{
+    font:21px "simsun";
+}
+#world .right .wrapper .mes2 p:nth-child(2){
+    font:12px "simsun";
+    line-height:20px;
+    color:#AAAAA9;
+}
+#world .right .wrapper .mes3{
+    display:none;
+}
+#world .right .wrapper .mes3 p:first-child{
+    font:21px "simsun";
+}
+#world .right .wrapper .mes3 p:nth-child(2){
+    font:12px "simsun";
+    line-height:20px;
+    color:#AAAAA9;
+}
+#world .right .wrapper button{
+    width: 105px;
+    height: 33px;
+    margin-top:10px;
+    background-color: #fff;
+    border:1px solid #E25C5F;
+}
+#world .right .wrapper a{
+    text-decoration:none;
+    color:#E25C5F;
+    font:12px/34px "microsoft yahei";
+    text-align:center;
+}
+#world .right .wrapper input{
+    cursor:pointer;
+
+    width: 10px;
+    height: 10px;
+
+    /*opacity:0;*/
+    z-index:10;
+}
+
+/*#world .right .wrapper input:nth-of-type(1){*/
+    /*top: 250px;*/
+    /*left:120px;*/
+/*}*/
+/*#world .right .wrapper input:nth-of-type(2){*/
+    /*top: 250px;*/
+    /*left:140px;*/
+/*}*/
+/*#world .right .wrapper input:nth-of-type(3){*/
+    /*top: 250px;*/
+    /*left:160px;*/
+/*}*/
+.aboutus{
+    min-width: 1280px;
+    height: 520px;
+    margin:0 auto;
+}
+.box1,.box2,.box3{
+    width: 33%;
+    height: 520px;
+}
+.box1{
+    background-color: #E74F4D;
+    float:left;
+}
+.box2{
+    float:left;
+}
+.box3{
+    float:right;
+    background:url("../image/8.gif");
+    background-size:cover;
+
+}
+.aboutus p{
+    font:21px "simhei";
+    text-align:center;
+    margin-top:169px;
+}
+.aboutus a{
+    text-align:center;
+    display:inline-block;
+    width: 169px;
+    height: 43px;
+    font:21px/43px "simhei";
+    text-decoration:none;
+    margin-top:22px;
+    margin-left:120px;
+
+}
+.box1 a{
+    border:1px solid #fff;
+    color:#fff;
+}
+.box2 a{
+    border:1px solid #E25C5F;
+    color:#E25C5F
+}
+#contact{
+    width: 1280px;
+    height: 750px;
+    margin:0 auto;
+}
+#contact h3{
+    font:21px "simhei";
+    text-align:center;
+    margin-top: 116px;
+}
+#contact p{
+    font:12px "microsoft yahei";
+    color:#AAAAA9;
+    text-align:center;
+    margin-top:10px;
+}
+#contact form {
+    width: 1004px;
+    height: 280px;
+    margin:100px auto;
+}
+#contact form label{
+    font:14px "simhei";
+}
+#contact form p{
+    height: 22px;
+    font:12px/22px "simsun";
+   color:#938E8C;
+    text-align:left;
+   margin-top:-3px;
+
+}
+#contact form label,form p{
+    width:29%;
+    margin-left:0;
+}
+#contact form input,form textarea{
+    background-color: #EDEDEE;
+    border-style:none;
+    padding-left:5px;
+}
+form .inp1{
+    width: 35%;
+    height: 41px;
+    margin-left:181px;
+
+}
+form .inp2{
+    width: 331px;
+    height: 41px;
+    margin-left:7px;
+}
+form .inp3{
+    width: 35%;
+    height: 41px;
+    margin-left:297px;
+    margin-top:-3px;
+}
+form .inp4{
+    width: 331px;
+    height: 41px;
+    margin-left:7px;
+}
+form textarea{
+    width: 70%;
+    margin-left:296px;
+    margin-top:-18px;
+
+}
+form input[type="submit"]{
+    width: 70%;
+    height: 40px;
+    margin-left:296px;
+}
+#bottom{
+    min-width: 1280px;
+    height: 368px;
+    background-color:#32363E;
+    margin:-30px auto;
+}
+#bottom h3{
+    font:21px "simhei";
+    color:#fff;
+    text-align:center;
+   padding-top:92px;
+}
+#bottom p{
+    font:12px "simsun";
+    color:#fff;
+    text-align:center;
+    padding-top:10px;
+}
+#bottom input{
+    width: 30%;
+    height: 40px;
+    color: #EDEDEE;
+    border-style:none;
+    margin-left:483px;
+    margin-top:15px;
+}
+#bottom button{
+    width: 5%;
+    height: 40px;
+    color:#fff;
+    text-align:center;
+    border-style:none;
+    margin-left:-5px;
+    background-color: #6F7178;
+}
+#bottom ul{
+    width: 50%;
+    list-style:none;
+   margin-left:670px;
+}
+#bottom li{
+    display:inline-block;
+   padding-left:20px;
+    margin-top: 35px;
+}
+#bottom .ico5{
+    width: 24px;
+    height: 25px;
+    background: url("../image/sprite.png") -66px -6px;
+}
+#bottom .ico6{
+    width: 29px;
+    height: 25px;
+    background: url("../image/sprite.png") -66px -57px;
+}
+#bottom .ico7{
+    width: 29px;
+    height: 25px;
+    background: url("../image/sprite.png") -66px -110px;
+}
+#bottom .ico8{
+    width: 24px;
+    height: 25px;
+    background: url("../image/sprite.png") -66px -168px;
+}
+#footer{
+    min-width: 1280px;
+    height: 54px;
+    background-color: #2F2F38;
+}
+#footer span:nth-of-type(1){
+    font:12px "simsun";
+    color:#fff;
+    float:left;
+    padding-left:96px;
+    padding-top: 27px;
+}
+#footer span:nth-of-type(2){
+    float:right;
+    padding-right: 96px;
+    padding-top: 27px;
+}
+#footer span>a{
+    text-decoration:none;
+    font:12px "simsun";
+    color:#fff;
+}
